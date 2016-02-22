@@ -20,7 +20,7 @@
     <header>
       <div class="inner">
         <h1>Koalabot</h1>
-        <h2>Bot for Twitch made with node-webkit.</h2>
+        <h2>Multi-platform open source desktop Twitch chat bot.</h2>
         <a href="https://github.com/Skhmt/KoalaBot" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
@@ -28,66 +28,62 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1>
-<a id="koalabot-a-chat-bot-for-twitch" class="anchor" href="#koalabot-a-chat-bot-for-twitch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KoalaBot, a chat bot for Twitch</h1>
 
-<p><img src="https://img.shields.io/badge/license-GPLv3-red.svg?style=flat-square" alt="gpl"></p>
-
-<h4>
-<a id="what-is-this" class="anchor" href="#what-is-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is this?</h4>
+<h3>
+<a id="what-is-this" class="anchor" href="#what-is-this" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Overview
+</h3>
 
 <p>It's a moderation bot for Twitch meant for roughly the same things as nightbot, moobot, ankhbot, deepbot, etc. This is and always will be free and open source. It runs off your desktop. I'm always open to feature requests, bug reports, and any constructive critique. Hit me up on <a href="http://www.twitch.tv/skhmt/profile">Twitch</a> or <a href="https://twitter.com/SkTTV">Twitter</a> or <a href="https://www.reddit.com/message/compose/?to=skhmt&amp;subject=twitch%20bot">Reddit</a>.</p>
 
-<h4>
-<a id="get-the-latest-release-for-windows-and-mac-os-x" class="anchor" href="#get-the-latest-release-for-windows-and-mac-os-x" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/Skhmt/twitch-bot/releases/">Get the latest release for Windows and Mac OS X</a>
-</h4>
-
-<h4>
-<a id="features--to-do-list" class="anchor" href="#features--to-do-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features / to-do list:</h4>
+<h3>
+<a id="features-list" class="anchor" href="#features-list" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Features
+</h3>
 
 <ul>
-<li>[x] Chat window with emoticons and viewer list</li>
-<li>[x] !highlight / !ht command to tag a place for VOD editing later</li>
-<li>[x] Quote system</li>
-<li>[x] Custom commands</li>
-<li>[x] Timed messages</li>
-<li>[x] Spam control via link, word, caps, symbols</li>
-<li>[x] Viewer count graphs</li>
-<li>[x] Customizable !uptime command based on bot running time, stream uptime, or a custom set time </li>
-<li>[x] Chat logging</li>
-<li>[x] Hosts logging</li>
-<li>[x] Giveaways</li>
-<li>[x] Song requests</li>
-<li>[x] Follower logging</li>
-<li>[x] Sub notifications</li>
-<li>[x] Update backend to allow plugins</li>
-<li>[x] Loyalty points</li>
-<li>[x] OS X compatibility</li>
-<li>[x] API command for recent events (to allow server notifications)</li>
-<li>[x] Enable/Disable subscriber months text</li>
-<li>[x] Streamer song queue that's overridden by user song requests</li>
-<li>[x] Option to have song requests cost points</li>
-<li>[x] Save song lists</li>
-<li>[x] Add a user to points list even if that user is not in the chat</li>
-<li>[x] Add a "play" button to individual quotes and timed messages</li>
-<li>[x] More text file outputs</li>
-<li>[x] Put game and stream title in the window title</li>
-<li>[x] Reduce saving to every 30 seconds or so</li>
-<li>[x] Generic Module status tab + api command for module description</li>
-<li>[x] Documentation on how obs-integration works</li>
-<li>[ ] Points requirement for raffles</li>
-<li>[x] Global hotkeys</li>
-<li>[ ] Change mod requirements for commands</li>
-<li>[ ] Cooldowns for commands </li>
-<li>[ ] Look in to overriding existing commands via module</li>
-<li>[ ] Edit timed messages, commands, and quotes</li>
-<li>[ ] User ranks</li>
-<li>[ ] Add "regular" rank (between viewer and sub)</li>
-<li>[ ] Open/view old statistics (<a href="https://github.com/nwjs/nw.js/wiki/File-dialogs">https://github.com/nwjs/nw.js/wiki/File-dialogs</a>)</li>
+<li>Chat window with emoticons and viewer list</li>
+<li>!highlight / !ht command to tag a place for VOD editing later</li>
+<li>Quote system</li>
+<li>Custom commands</li>
+<li>Timed messages</li>
+<li>Spam control via link, word, caps, symbols</li>
+<li>Viewer count graphs</li>
+<li>Customizable !uptime command based on bot running time, stream uptime, or a custom set time </li>
+<li>Chat logging</li>
+<li>Hosts logging</li>
+<li>Giveaways</li>
+<li>Song requests</li>
+<li>Follower logging</li>
+<li>Sub notifications</li>
+<li>Update backend to allow plugins</li>
+<li>Loyalty points</li>
+<li>OS X compatibility</li>
+<li>API command for recent events (to allow server notifications)</li>
+<li>Enable/Disable subscriber months text</li>
+<li>Streamer song queue that's overridden by user song requests</li>
+<li>Option to have song requests cost points</li>
+<li>Save song lists</li>
+<li>Add a user to points list even if that user is not in the chat</li>
+<li>Add a "play" button to individual quotes and timed messages</li>
+<li>More text file outputs</li>
+<li>Put game and stream title in the window title</li>
+<li>Reduce saving to every 30 seconds or so</li>
+<li>Generic Module status tab + api command for module description</li>
+<li>Documentation on how obs-integration works</li>
+<li>Global hotkeys</li>
 </ul>
 
-<h4>
-<a id="commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands:</h4>
+<h3>
+<a id="commands" class="anchor" href="#commands" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Commands
+</h3>
 
 <table>
 <thead>
@@ -131,7 +127,7 @@
 <tr>
 <td><strong>!highlight</strong></td>
 <td>(comments)</td>
-<td>Mod-only. <em>Adds a time stamp to a log file (both local time and stream time) with the optional comments.</em>
+<td><em>Adds a time stamp to a log file (both local time and stream time) with the optional comments.</em>
 </td>
 </tr>
 <tr>
@@ -142,25 +138,25 @@
 <tr>
 <td><strong>!game</strong></td>
 <td>[game name]</td>
-<td>Mod-only. <em>Changes the game.</em>
+<td><em>Changes the game.</em>
 </td>
 </tr>
 <tr>
 <td><strong>!status</strong></td>
 <td>[stream status]</td>
-<td>Mod-only. <em>Changes the stream status.</em>
+<td><em>Changes the stream status.</em>
 </td>
 </tr>
 <tr>
 <td><strong>!permit</strong></td>
 <td>[username]</td>
-<td>Mod-only. <em>Allows the user to post links for 60 seconds.</em>
+<td><em>Allows the user to post links for 60 seconds.</em>
 </td>
 </tr>
 <tr>
 <td><strong>!addcom</strong></td>
 <td>(-ul=[mod/sub/streamer]) [!commandname] [text]</td>
-<td>Mod-only. <em>Adds a command. The new command can be set to only be used by a certain user level. Using %1%, %2%, %3%, %4%, or %5% when creating a command will replace it with that parameter when the command is run. For example, "!addcom !tree %1% and %2% sitting in a tree" then "!tree wolfish indy" would output "wolfish and indie sitting in a tree".</em>
+<td><em>Adds a command. The new command can be set to only be used by a certain user level. Using %1%, %2%, %3%, %4%, or %5% when creating a command will replace it with that parameter when the command is run. For example, "!addcom !tree %1% and %2% sitting in a tree" then "!tree wolfish indy" would output "wolfish and indie sitting in a tree".</em>
 </td>
 </tr>
 <tr>
@@ -171,7 +167,7 @@
 <tr>
 <td><strong>!delcom</strong></td>
 <td>[!commandname]</td>
-<td>Mod-only. <em>Deletes a command.</em>
+<td><em>Deletes a command.</em>
 </td>
 </tr>
 <tr>
@@ -192,7 +188,7 @@
 <tr>
 <td><strong>!delquote</strong></td>
 <td>[id]</td>
-<td>Mod-only. <em>Deletes the quote with the given id.</em>
+<td><em>Deletes the quote with the given id.</em>
 </td>
 </tr>
 <tr>
@@ -203,19 +199,19 @@
 <tr>
 <td><strong>!skipsong</strong></td>
 <td></td>
-<td>Mod-only. <em>Skips the currently playing song.</em>
+<td><em>Skips the currently playing song.</em>
 </td>
 </tr>
 <tr>
 <td><strong>!volume</strong></td>
 <td>[volume 0-100]</td>
-<td>Mod-only. <em>Sets the song volume to this.</em>
+<td><em>Sets the song volume to this.</em>
 </td>
 </tr>
 <tr>
 <td><strong>!mute</strong></td>
 <td></td>
-<td>Mod-only. <em>Mutes/unmutes the song, does not change the volume level.</em>
+<td><em>Mutes/unmutes the song, does not change the volume level.</em>
 </td>
 </tr>
 <tr>
@@ -231,12 +227,16 @@
 </tbody>
 </table>
 
-<h4>
-<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h4>
+<h3>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Setup
+</h3>
 
 <ul>
-<li>For Windows: Run koalaBot.exe</li>
-<li>For OS X: Get nwjs 0.12.3 from the app store or their website. Download the Koalabot osx .zip and unzip it into the same directory as nwjs.app. Run nwjs.app.</li>
+<li><strong>Windows:</strong> Run koalaBot.exe</li>
+<li><strong>OS X:</strong> Get nwjs 0.12.3 from the app store or their website. Download the Koalabot osx .zip and unzip it into the same directory as nwjs.app. Run nwjs.app.</li>
 <li>Go to Settings &gt; Bot Config</li>
 <li>Click "Get Token"</li>
 <li>If Windows pops up something about the firewall, click OK. </li>
@@ -244,18 +244,32 @@
 <li>If you're using the bot on an account other than the one you stream on, make sure the bot is both a mod and an editor for your channel. To make the bot an editor, go to your Twitch Dashboard on your main account.</li>
 </ul>
 
-<h4>
-<a id="making-modules" class="anchor" href="#making-modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making modules:</h4>
+<h3>
+<a id="making-modules" class="anchor" href="#making-modules" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Making modules
+</h3>
 
 <p>Modules are HTML5 + javascript (ES6) + jQuery (2.2.0) + Boostrap (3.3.6). See my <a href="https://gist.github.com/Skhmt/5b2f4300c0e7a82e654e">example module</a> for working example. To install it, save it as a .js file and place it in the \mods\ folder, then restart the bot. Also see the <a href="https://github.com/Skhmt/twitch-bot/blob/master/MODULE%20API.md">API</a> for more details and some functionality not used in example.js. Share modules via <a href="http://jsfiddle.net">JSFiddle</a> or <a href="http://gist.github.com">Gist</a>.</p>
+<p>Check out the <a href="http://www.reddit.com/r/koalabot">KoalaBot subreddit</a> for more help.</p>
 
-<h4>
-<a id="making-themes" class="anchor" href="#making-themes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making themes:</h4>
+<h3>
+<a id="making-themes" class="anchor" href="#making-themes" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Making themes
+</h3>
 
 <p>Themes are just Bootstrap 3.3.6 .css files. Put them in the themes folder and restart the bot.</p>
+<p>Themes must point to the fonts folder as "../fonts".</p>
 
-<h4>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License:</h4>
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+License
+</h3>
 
 <p>This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -266,8 +280,12 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 <a href="https://github.com/Skhmt/twitch-bot/blob/master/LICENSE">GNU General Public License</a> for more details.</p>
 
-<h4>
-<a id="libs-used" class="anchor" href="#libs-used" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Libs used:</h4>
+<h3>
+<a id="libs-used" class="anchor" href="#libs-used" aria-hidden="true">
+  <span aria-hidden="true" class="octicon octicon-link"></span>
+</a>
+Libraries
+</h3>
 
 <ul>
 <li><a href="https://github.com/nwjs/nw.js/">nw.js 0.12.3</a></li>
@@ -280,22 +298,27 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
         </section>
 
         <aside id="sidebar">
+          <a href="https://github.com/Skhmt/KoalaBot/releases/download/0.9.0/koalabot_0.9.0-win32.zip" class="button">
+            <small>Download latest</small>
+            Windows
+          </a>
+          <a href="https://github.com/Skhmt/KoalaBot/releases/download/0.9.0/koalabot_0.9.0-osx.zip" class="button">
+            <small>Download latest</small>
+            Mac OS X
+          </a>
           <a href="https://github.com/Skhmt/KoalaBot/zipball/master" class="button">
-            <small>Download</small>
+            <small>Download source</small>
             .zip file
           </a>
           <a href="https://github.com/Skhmt/KoalaBot/tarball/master" class="button">
-            <small>Download</small>
+            <small>Download source</small>
             .tar.gz file
           </a>
-
           <p class="repo-owner"><a href="https://github.com/Skhmt/KoalaBot"></a> is maintained by <a href="https://github.com/Skhmt">Skhmt</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
         </aside>
       </div>
     </div>
 
-  
+
   </body>
 </html>
